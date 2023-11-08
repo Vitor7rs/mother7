@@ -12,6 +12,7 @@ header {
 	font-family: "Roboto", sans-serif;
 	font-size: 35px;
 	color: rgb(47, 47, 126);
+	text-shadow: -4px 0px 4px rgba(0, 0, 0, 0.6);
 
 	background-color: rgb(241, 200, 64);
 }
@@ -21,13 +22,135 @@ ul {
 	justify-content: space-around;
 }
 
-li {
+a {
+	all: unset;
+}
+
+a:hover {
+	cursor: pointer;
+}
+header li {
 	list-style: none;
 	margin-left: 25px;
+	font-weight: 700;
 }
 .container {
-	width: 1500px;
+	width: 1000px;
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: space-between;
+}
+
+body {
+	background-color: rgb(46, 39, 88);
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	font-family: "Roboto", sans-serif;
+	color: rgb(241, 200, 64);
+}
+
+main .container {
+	margin-top: 21px;
+	justify-content: space-between;
+	align-items: start;
+	margin-bottom: 70px;
+}
+main .container img {
+	width: 100%;
+	border: 1px solid rgb(241, 200, 64);
+}
+
+main .container div {
+	width: 490px;
+}
+
+main h1 {
+	text-shadow: -4px 0px 4px rgba(0, 0, 0, 0.6);
+}
+
+.about {
+	display: flex;
+	flex-direction: column;
+	gap: 21px;
+}
+
+#icons {
+	display: flex;
+	gap: 21px;
+}
+
+#icons img {
+	width: 70px;
+	border: none;
+}
+
+.extra p {
+	font-style: italic;
+	text-decoration: underline;
+}
+main .container .extra {
+	width: 100%;
+}
+
+#fandom {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+#fandom form {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+#fandom input {
+	width: 250px;
+	height: 40px;
+	background-color: rgb(247, 247, 188);
+	box-shadow: -3px 3px 9px 0px rgba(79, 59, 59, 0.54);
+	-webkit-box-shadow: -3px 3px 9px 0px rgba(79, 59, 59, 0.54);
+	-moz-box-shadow: -3px 3px 9px 0px rgba(79, 59, 59, 0.54);
+}
+
+#fandom input::placeholder {
+	color: rgb(75, 68, 143);
+	font-weight: 700;
+	text-align: center;
+}
+
+#fandom form #message {
+	height: 150px;
+}
+
+#fandom button {
+	width: 250px;
+	height: 50px;
+	font-size: 30px;
+	font-weight: 700;
+	color: rgb(46, 39, 88);
+	background-color: rgb(253, 222, 45);
+}
+
+#fandom button:hover {
+	background-color: rgb(243, 214, 151);
+}
+
+#social img {
+	width: 50px;
+	border: none;
+}
+
+footer {
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	font-style: italic;
+	text-align: center;
+	background-color: rgb(241, 200, 64);
+	color: rgb(47, 47, 126);
 }
