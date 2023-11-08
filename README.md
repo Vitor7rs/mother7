@@ -3,5 +3,5 @@
 ### Link para visualização: <a href="https://vitor7rs.github.io/news_portal/">Aqui</a>
 
 <div>
-  <img  src="[https://i.imgur.com/qeAZULL.png](https://i.imgur.com/fAaV3zm.png)https://i.imgur.com/fAaV3zm.png">
+  <img  src="https://i.imgur.com/qeAZULL.png](https://i.imgur.com/fAaV3zm.png)https://i.imgur.com/fAaV3zm.png">
 </div>
